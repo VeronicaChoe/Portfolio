@@ -232,7 +232,7 @@ body {
 
   #section2 {
     height: 100%;
-    background-color: blue;
+    background-color: none;
     display: inline;
     position: relative;
     display: block;
@@ -249,7 +249,7 @@ body {
 .work-container{
     display: flex;
     flex-direction: column;
-    background-color: pink;
+    background-color: none;
     gap: 4rem;
 }
 
@@ -267,8 +267,8 @@ body {
     gap: 0rem;
     flex-wrap: wrap; 
     width: 100%;
-    background-color: lightgreen;
-    border-top: 1px solid black;
+    background-color: none;
+    border-top: 1.5px solid black;
     /* border-bottom: 1px solid black; */
     border-left: none;
     border-right: none;
@@ -280,7 +280,7 @@ body {
   .project-info,
   .project-image {
     flex: 1;
-    background-color: #eee;
+    background-color: none;
     padding: 1.3rem;
     text-align: center;
     font-size: 1.2rem;
@@ -309,14 +309,14 @@ body {
 .titles {
 
     font-weight: 800;
-    font-size: 3vw;
+    font-size: 3.5vw;
 
 }
 
 .description {
 
     font-weight: 600;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
 }
 
 .keywords {

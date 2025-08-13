@@ -23,7 +23,7 @@ function openFullscreen(elem) {
   container.style.height = '100%';
 
   // Selecting media elements from the specific sections
-  const media = document.querySelectorAll('.video video, .pic img, .pictures img');
+  const media = document.querySelectorAll('.pic video, .pic img, .pictures img');
 
   media.forEach((item, index) => {
     let newItem;
